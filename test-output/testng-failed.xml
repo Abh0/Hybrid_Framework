@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Nayaami_Framework]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.nayaami.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="e_Commerce(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nayaami.test_cases.TC_AddToCart_003">
+        <methods>
+          <include name="AddToCart"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.nayaami.test_cases.TC_AddToCart_003 -->
+    </classes>
+  </test> <!-- e_Commerce(failed) -->
+</suite> <!-- Failed suite [Nayaami_Framework] -->
